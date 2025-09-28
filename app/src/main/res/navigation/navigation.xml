@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+    android:id="@+id/homeFragment"
+    android:name="com.example.prottect_yourself.ui.home.HomeFragment"
+    android:label="Главная"
+    tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.prottect_yourself.ui.contacts.ContactsFragment"
+        android:label="Контакты"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/wordsFragment"
+        android:name="com.example.prottect_yourself.ui.words.WordsFragment"
+        android:label="Словарь"
+        tools:layout="@layout/fragment_words" />
+
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.prottect_yourself.ui.email.EmailFragment"
+        android:label="Email"
+        tools:layout="@layout/fragment_email" />
+
+    <fragment
+        android:id="@+id/dictaphoneFragment"
+        android:name="com.example.prottect_yourself.ui.dictaphone.DictaphoneFragment"
+        android:label="Аудио-записи"
+        tools:layout="@layout/fragment_dictaphone" />
+
+</navigation>

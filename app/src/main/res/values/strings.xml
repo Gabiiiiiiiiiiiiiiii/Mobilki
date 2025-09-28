@@ -1,0 +1,26 @@
+<resources>
+<!--    <string name="screen_contacts">Контакты</string>-->
+<!--    <string name="screen_email">Email</string>-->
+<!--    <string name="screen_codewords">Кодовые слова</string>-->
+<!--    <string name="screen_recordings">Аудиозаписи</string>-->
+
+    <string name="selected_contacts_header">Выбранные контакты</string>
+    <string name="all_contacts_header">Все контакты</string>
+
+    <string name="email_text_template_input_hint">Введите шаблон текста</string>
+    <string name="save_text_template_button">Сохранить текст</string>
+    <string name="email_text_header">Текст сообщения</string>
+
+    <string name="email_input_hint">Введите email адрес</string>
+    <string name="save_email_button">Сохранить адрес</string>
+    <string name="email_recipients_header">Получатели</string>
+
+    <string name="add_codeword_hint">Введите кодовое слово</string>
+    <string name="add_button">Добавить</string>
+<!--    <string name="list_of_codewords">Список кодовых слов</string>-->
+
+    <string name="app_name">Prottect Yourself</string>
+
+    <string name="recordings_list">Записи диктофона</string>
+
+</resources>

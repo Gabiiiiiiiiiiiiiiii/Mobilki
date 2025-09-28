@@ -1,0 +1,51 @@
+*.iml
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+.idea/runConfigurations/
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ================================================
+# Файлы, сгенерированные средой разработки и системой сборки
+# ================================================
+
+# Сгенерированные APK/AAB и другие артефакты сборки
+*.apk
+*.aab
+*.ap_
+*.a_
+*.apks
+
+# Файлы, сгенерированные Gradle
+.gradle/
+build/
+app/build/
+
+# Логи ошибок
+captures/
+*.log
+
+# ================================================
+# Файлы операционной системы
+# ================================================
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+
+
+# Ключи для подписи приложений (никогда не добавляйте их в Git!)
+*.jks
+*.keystore
+
+# История локальных изменений Android Studio
+.idea/vcs.xml

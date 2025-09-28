@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/ic_contacts"
+        android:title="Контакты" />
+
+    <item
+        android:id="@+id/wordsFragment"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Словарь" />
+
+    <item
+        android:id="@+id/emailFragment"
+        android:icon="@drawable/ic_email"
+        android:title="Email" />
+
+    <item
+        android:id="@+id/dictaphoneFragment"
+        android:icon="@drawable/ic_recordings"
+        android:title="Аудиозаписи" />
+
+</menu>
