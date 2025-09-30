@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.prottect_yourself.databinding.FragmentWordsBinding // <-- ЗАМЕНИТЕ НА ВАШ ПАКЕТ
+import com.example.prottect_yourself.databinding.FragmentWordsBinding
 import com.example.prottect_yourself.logic.words.WordStorage
 import com.example.prottect_yourself.logic.words.WordsAdapter
 

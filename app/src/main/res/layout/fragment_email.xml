@@ -3,17 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="#F5F5F5">
-
-<!--    &lt;!&ndash; Хэдэр (Toolbar) &ndash;&gt;-->
-<!--    <com.google.android.material.appbar.MaterialToolbar-->
-<!--        android:id="@+id/toolbar"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="?attr/actionBarSize"-->
-<!--        android:background="?attr/colorPrimary"-->
-<!--        app:title="@string/screen_email"-->
-<!--        app:titleTextColor="@android:color/white"/>-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,15 +35,6 @@
             android:layout_gravity="end"
             android:layout_marginTop="16dp"
             android:text="@string/save_text_template_button"/>
-
-<!--        &lt;!&ndash; Текст шаблона сообщения, которое будет отправлено  &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/email_text_header"-->
-<!--            android:textSize="18sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_marginTop="24dp"/>-->
 
 
         <!-- Поле для ввода email -->
@@ -90,7 +73,9 @@
             android:id="@+id/emailRecipientsRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            tools:listitem="@layout/item_codeword"/>
     </LinearLayout>
 
 </LinearLayout>
