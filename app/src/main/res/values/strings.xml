@@ -23,4 +23,6 @@
 
     <string name="recordings_list">Записи диктофона</string>
 
+    <string name="delete_button_description">удалить элемент</string>
+
 </resources>
